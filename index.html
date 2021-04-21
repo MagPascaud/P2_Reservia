@@ -8,7 +8,9 @@
     
     <body>
         <header>
+            <div id="logo">
             <p><img src="images/logo/Reservia@3x.png" alt="logo_Reservia"/></p>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Hébergements</a></li>
@@ -16,31 +18,35 @@
                     <li><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
-            <div id="Titre">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
             </div>
-            <div id="Recherche">
-                <input type="search" name="géolocalisation" id="Rechercher"/>
-            <input type="button" value="Rechercher"/>
-            </div>
+            
         </header>
-
+        <div id="Titre">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>En plein centre ville ou en pleine nature</h2>
+        </div>
+        <div id="Recherche">
+            <form method="post" action="traitement-ville.php">
+            <p></p><input type="search" name="géolocalisation" id="Rechercher"/>
+            <input type="button" value="Rechercher"/>
+            </p>
+            </form>
+        </div>
         <section>
             <div id="Localisation"></div>
             <div id="filtres">
                 <p>Filtres</p>
-                <p>Économique</p>
-                <p>Familial</p>
-                <p>Romantique</p>
-                <p>Animaux autorisés</p>
+                <a href="#">Économique</a>
+                <a href="#">Familial</a>
+                <a href="#">Romantique</a>
+                <a href="#">Animaux autorisés</a>
             </div>
             <div id="Infos">
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
 
-        <section>
+        <section id="hebergement">
         <div id="Bloc_hebergement">
             <h1>Hébergements à Marseille</h1>
             <p>
@@ -62,7 +68,6 @@
                 <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                 <figcaption>Hôtel chez Amina</figcaption>
                 <figcaption>Nuit à partir de 96€</figcaption>  
-
             </p>
         </div>
         <div id="Bloc_LesPlusPopulaires">

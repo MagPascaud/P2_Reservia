@@ -1,4 +1,77 @@
-h1
+/* HEADER*/
+header
 {
-    color: #0065FC;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    vertical-align: middle;
+}
+nav li
+{
+    margin-right: 80px;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    vertical-align: top;
+}
+#logo img
+{
+    width: 150px;
+    height: 70px;
+}
+
+#filtres
+{
+    display: flex;
+    flex-direction: row;
+}
+#filtres a
+{
+    margin-right: 60px;
+}
+
+/* HEBERGEMENT*/
+#hebergement
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Bloc_hebergement
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 5000px;
+}
+
+#Bloc_hebergement img
+{
+    width: 300px;
+    height: 200px;
+}
+
+#Bloc_LesPlusPopulaires
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#Bloc_LesPlusPopulaires img
+{
+    width: 200px;
+    height: 200px;
+}
+#Rechercher
+{
+    border-radius: 10px 0 0 10px;
+    background-color: #0065FC;
 }
