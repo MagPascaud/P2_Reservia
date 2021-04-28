@@ -1,10 +1,20 @@
-/* POLICE*/
+/* police*/
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('police/Raleway-Bold.ttf') format('ttf');
+    src: url('police/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*marges de la page*/
 body
 {
     max-width: 1024px;
     margin: auto;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
     
 }
 
@@ -17,7 +27,6 @@ header
 }
 nav ul
 {
-    list-style-type: none;
     display: flex;
     align-items: flex-end;
     vertical-align: middle;
@@ -25,6 +34,8 @@ nav ul
 nav li
 {
     margin-right: 80px;
+    text-decoration: none;
+    list-style-type: none;
 }
 #logo
 {
@@ -47,6 +58,13 @@ nav li
 #filtres a
 {
     margin-right: 60px;
+    border-radius: 10px black;
+    
+}
+
+.localisation
+{
+    background-color: #F2F2F2;
 }
 
 /* HEBERGEMENT LARGEUR*/
@@ -57,6 +75,10 @@ nav li
 }
 
 /* HEBERGEMENT MARSEILLE*/
+#titre-hebergement
+{
+    margin-left: 20px;
+}
 #hebergement-marseille
 {
     display: flex;
@@ -73,6 +95,7 @@ nav li
     flex-direction: row;
     flex-wrap: wrap;    
     justify-content: space-around;
+    margin: auto;
 }
 
 #hebx6 img
@@ -94,6 +117,10 @@ nav li
     box-shadow: 1px 1px 1px 3px #e7e5e5;
     max-height: 250px;
 }
+.tarif
+{
+    font-weight: bold;
+}
 
 #lespluspopulaires
 {
@@ -110,6 +137,41 @@ nav li
 }
 #Rechercher
 {
-    border-radius: 10px 0 0 10px;
-    background-color: #0065FC;
+    border: solid 1px;
+    }
+
+h1
+{
+    font-size: 2em;
+}
+
+/* ACTIVITES LARGEUR*/
+#activités
+{
+    display: flex;
+    flex-direction: row;   
+}
+#acti-small
+{
+    display: flex;
+    flex-direction: column;
+}
+#acti-large
+{
+    display: flex;
+    flex-direction: row;
+}
+#acti-small img
+{
+    width: 150px;
+    height: 90px;
+}
+#acti-large img
+{
+    width: 150px;
+    height: 200px;
+}
+a
+{
+    text-decoration: none;
 }
