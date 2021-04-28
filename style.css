@@ -49,7 +49,37 @@ nav li
     width: 150px;
     height: 70px;
 }
-
+/*localisation et filtres*/
+#recherche
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.localisation
+{
+    background-color: #F2F2F2;
+}
+.recherche-marseille
+{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    border: solid 1px;
+    border-color: #F2F2F2;
+    width: 300px;
+}
+.bouton
+{
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    width: 150px;
+}
 #filtres
 {
     display: flex;
@@ -60,13 +90,10 @@ nav li
     margin-right: 60px;
     border: solid #F2F2F2;
     border-radius: 30px;
+    color: black;
     
 }
 
-.localisation
-{
-    background-color: #F2F2F2;
-}
 
 /* HEBERGEMENT LARGEUR*/
 #hebergement-largeur
@@ -136,10 +163,7 @@ nav li
     height: 100px;
     border-radius: 10px 0 0 10px;
 }
-#Rechercher
-{
-    border: solid 1px;
-    }
+
 
 h1
 {
