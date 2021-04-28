@@ -58,7 +58,8 @@ nav li
 #filtres a
 {
     margin-right: 60px;
-    border-radius: 10px black;
+    border: solid #F2F2F2;
+    border-radius: 30px;
     
 }
 
