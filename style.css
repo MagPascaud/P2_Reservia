@@ -177,6 +177,7 @@ nav li a
     flex-wrap: wrap;    
     justify-content: space-around;
     margin: auto;
+    margin-top: 5px;
 }
 
 .image
@@ -216,17 +217,22 @@ nav li a
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+/* BLOC POPULAIRE*/
+
 #lespluspopulaires
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     background-color:#F2F2F2;
     border-radius: 10px;
 }
 #titre-populaire
 {
-    margin-left: 30px;
+    
+    
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -234,6 +240,8 @@ nav li a
 {
     display: flex;
     flex-direction: column;
+    margin-top: 5px;
+    
 }
 
 .image-pop
@@ -246,8 +254,8 @@ nav li a
     flex-wrap: wrap;
     width: 250px;
     box-shadow: 1px 1px 1px 3px #e7e5e5;
-    max-height: 150px;   
-    margin: 5px;
+    max-height: 300px;   
+    margin-bottom: 30px;
 }
 .image-pop h4,h5
 {
@@ -257,9 +265,10 @@ nav li a
 }
 .photo-pop img
 {
-    width: 50px;
-    height: 55px;
+    width: 100px;
+    height: 120px;
     border-radius: 10px 0 0 10px;
+    margin: 5px;
 }
 h1
 {
