@@ -115,25 +115,34 @@ nav li a
     color: black;
     width: auto;
     font-weight: bold;
-    font-size: 1.2em;
-    vertical-align: middle;
-    
+    font-size: 1.2em;    
 }
 #filtres img
 {
     vertical-align: middle;
-    
-   
+    margin-right: 10px;
 }
 
 #filtres p
 {
     font-size: 1.2em;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 10px;
 }
-/* PENSER A DISSOOIER LES IMAGES DU TXT*/
 
+
+#infos
+{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#infos p
+{
+    margin-left: 10px;
+}
 
 /* HEBERGEMENT LARGEUR*/
 #hebergement-largeur
@@ -145,17 +154,20 @@ nav li a
 /* HEBERGEMENT MARSEILLE*/
 #titre-hebergement
 {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 #hebergement-marseille
 {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 65%;
     max-height: 600px;
     background-color:#F2F2F2;
-    margin-right: 60px;
+    margin-right: 40px;
+    border-radius: 10px;
 }
 
 #hebx6
@@ -167,55 +179,87 @@ nav li a
     margin: auto;
 }
 
-#hebx6 img
-{
-    width: 180px;
-    height: 100px;
-    border-radius: 10px; 
-    margin: auto;
-}
-
 .image
 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 1px 3px #e7e5e5;
-    max-height: 200px;
-}
-.tarif
-{
-    font-weight: bold;
+    max-height: 250px;
+    margin-bottom: 30px;
 }
 
+.image h4,h5
+{
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.photo img
+{
+    width: 100%;
+    max-width: 200px;
+    height: 100px;
+    border-radius: 10px; 
+    margin: 5px;
+}
+.etoile img
+{
+    height: 18px;
+    width: 70px;
+    margin-left: 10px;
+}
+#afficher
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 #lespluspopulaires
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color:#F2F2F2;
+    border-radius: 10px;
 }
-#popx3 img
+#titre-populaire
 {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px 0 0 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#popx3
+{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .image-pop
 {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     border-radius: 10px 10px 10px 10px;
     background-color: white;
     flex-wrap: wrap;
     width: 250px;
     box-shadow: 1px 1px 1px 3px #e7e5e5;
-    max-height: 150px;    
+    max-height: 150px;   
+    margin: 5px;
+}
+.image-pop h4,h5
+{
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.photo-pop img
+{
+    width: 50px;
+    height: 55px;
+    border-radius: 10px 0 0 10px;
 }
 h1
 {
