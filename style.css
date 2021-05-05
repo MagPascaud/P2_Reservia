@@ -70,13 +70,23 @@ nav li a
     flex-direction: row;
     height: 50px;
 }
-.localisation
+#localisation
 {
+    display: flex;
     border: solid 1px;
     border-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
 }
-.recherche-marseille
+#recherche-icone
+{
+    font-size: 25px;
+}
+#recherche-marseille
 {
     font-family: 'Raleway';
     font-weight: bold;
@@ -85,13 +95,13 @@ nav li a
     width: 250px;
 }
 
-::placeholder
+#recherche-marseille::placeholder
 {
     color: black;
     font-size: 1.2em;
     padding-left: 20px;
 }
-.bouton
+#bouton
 {
     background-color: #0065FC;
     color: white;
@@ -105,7 +115,7 @@ nav li a
 {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    
 }
 #filtres a
 {
@@ -115,12 +125,15 @@ nav li a
     color: black;
     width: auto;
     font-weight: bold;
-    font-size: 1.2em;    
+    font-size: 1.2em;   
+    padding-right: 10px; 
+    height: 40px;
 }
 #filtres img
 {
     vertical-align: middle;
     margin-right: 10px;
+    height: 40px;
 }
 
 #filtres p
@@ -205,6 +218,10 @@ nav li a
     border-radius: 10px; 
     margin: 5px;
 }
+.etoile
+{
+    
+}
 .etoile img
 {
     height: 18px;
@@ -256,6 +273,14 @@ nav li a
     box-shadow: 1px 1px 1px 3px #e7e5e5;
     max-height: 300px;   
     margin-bottom: 30px;
+}
+.text-pop
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
 }
 .image-pop h4,h5
 {

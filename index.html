@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
     <title>P2_Reservia2</title>
 </head>
 
@@ -27,9 +29,10 @@
 
     <section id="recherche-filtre">
         <div id="recherche">
-            <img class="localisation" src="images/localisation.jpg" alt="localisation">
-            <input class="recherche-marseille" placeholder="Marseille, France" type="search" name="géolocalisation" />
-            <input class="bouton" type="button" value="Rechercher" />
+            <!-- <img class="localisation" src="images/localisation.jpg" alt="localisation"> -->
+            <div id="localisation"><i id="recherche-icone" class="fas fa-map-marker"></i></div>
+            <input id="recherche-marseille" placeholder="Marseille, France" type="search" name="géolocalisation" />
+            <input id="bouton" type="button" value="Rechercher" />
         </div>
         <div id="filtres">
             <p>Filtres</p>
@@ -120,9 +123,11 @@
                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="Hôtel Le soleil du matin">
                     </div>
-                    <h4>Hôtel Le soleil du matin</h4>
-                    <h5>Nuit à partir de 128€</h5>
-                    <div class="etoile"><img src="images/5etoiles.jpg" alt="5 étoiles">
+                    <div class="texte-pop">
+                        <h4>Hôtel Le soleil du matin</h4>
+                        <h5>Nuit à partir de 128€</h5>
+                        <div class="etoile"><img src="images/5etoiles.jpg" alt="5 étoiles">
+                        </div>
                     </div>
                 </div>
                 <div class="image-pop">
