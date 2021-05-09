@@ -2,10 +2,8 @@
 @font-face 
 {
     font-family: 'Raleway';
-    src: url('police/Raleway-Regular.ttf') format('ttf');
+    src: url('police/Raleway-Regular.ttf');
     src: url('police/Raleway-Bold.ttf');
-    font-weight: normal;
-    font-style: normal;
 }
 
 /*marges de la page*/
@@ -15,7 +13,6 @@ body
     margin: auto;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    
 }
 
 /* HEADER*/
@@ -255,12 +252,12 @@ nav li a
 .etoile-bleue
 {
     color: #0065FC;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .etoile-grise
 {
     color: #D9D9D9;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 #etoile
 {
@@ -269,6 +266,7 @@ nav li a
     height: 20px;
     width: 100px;
     margin-left: 10px;
+    margin-top: 8px;
 }
 #afficher
 {
@@ -284,23 +282,31 @@ nav li a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     background-color:#F2F2F2;
     border-radius: 10px;
+    max-height: 600px;
 }
 #titre-populaire
 {
-    
-    
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
     margin-top: 30px;
     margin-bottom: 10px;
+    margin-left: 30px;
+}
+#titre-populaire i
+{
+    font-size: 1.3em;
+    margin-top: 13px;
 }
 #popx3
 {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .image-pop
@@ -311,7 +317,7 @@ nav li a
     border-radius: 10px 10px 10px 10px;
     background-color: white;
     flex-wrap: wrap;
-    width: 250px;
+    width: 280px;
     box-shadow: 1px 1px 1px 3px #e7e5e5;
     max-height: 300px;   
     margin-bottom: 30px;
@@ -322,6 +328,7 @@ nav li a
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    max-width: 80%;
 
 }
 .image-pop h4,h5
@@ -350,7 +357,15 @@ h3{
 }
 h4
 {
+    font-size: 1em;
+    margin-top: 5px;
+    font-weight: bold;
+}
+h5
+{
     font-size: 0.9em;
+    margin-top: 5px;
+    font-weight: lighter;
 }
 
 /* ACTIVITES LARGEUR*/
@@ -358,6 +373,7 @@ h4
 {
     display: flex;
     flex-direction: row;   
+    margin-top: 50px;
 }
 #acti-small
 {
