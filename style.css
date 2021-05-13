@@ -89,8 +89,8 @@ nav li a
     border-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     background-color: #F2F2F2;
-    height: 50px;
-    width: 30px;
+    height: 48px;
+    width: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -129,11 +129,16 @@ nav li a
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    align-items: center;
 }
-#filtres a
+#filtres button
 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
     margin-right: 20px;
-    
+    background-color: transparent;
+    height: 40px;
     border: solid 2px #F2F2F2;
     border-radius: 30px;
     color: black;
@@ -141,26 +146,29 @@ nav li a
     font-weight: bold;
     font-size: 1.2em;   
     padding-right: 20px; 
-    height: 35px;    
+    padding-left: 0;
 }
 
-#filtres a:hover
+#filtres button:hover
 {
     background-color: #0065FC;
     color: white;
 }
+
 #filtres i
 {
     margin-right: 10px;
     height: 32px;
-    width: 35px;
+    width: 32px;
     color: #0065FC;
     font-size: 1.1em;
     border: solid #DEEBFF;
     background-color: #DEEBFF;
     border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
 
 
@@ -217,7 +225,7 @@ nav li a
 {
     display: flex;
     flex-direction: column;
-    max-height: 550px;
+    max-height: 500px;
     max-width: 650px;
     background-color:#F2F2F2;
     margin-right: 30px;
@@ -228,13 +236,13 @@ nav li a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;    
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
 }
 .carte a:hover
 {
-    background-color: #DEEBFF;
+    box-shadow: 1px 1px 10px 10px #DEEBFF
 }
 .carte
 {
@@ -242,10 +250,11 @@ nav li a
     flex-direction: column;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 1px 3px #e7e5e5;
-    max-height: 180px;
+    box-shadow: 1px 1px 10px 8px #e7e5e5;
+    max-height: 170px;
     margin-bottom: 30px;
-    max-width: 200px;
+    max-width: 190px;
+    padding: 2px
 }
 
 .carte h4,h5
@@ -257,10 +266,12 @@ nav li a
 }
 .photo img
 {
-    width: 95%;
-    height: 100px;
-    border-radius: 10px; 
-    margin: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 90px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    
 }
 .etoile-bleue
 {
@@ -284,8 +295,6 @@ nav li a
 #afficher
 {
     margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
 }
 .euro
 {
@@ -300,34 +309,30 @@ nav li a
     flex-wrap: wrap;
     background-color:#F2F2F2;
     border-radius: 10px;
-    max-height: 550px;
-    max-width: 300px;
+    max-height: 500px;
+    max-width: 250px;
+    padding: 30px;
 }
 #titre-populaire
 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
+    align-items: center;
     margin-bottom: 10px;
-    margin-left: 30px;
-    
+    width: 100%;
 }
-#icon-pop
+#titre-populaire h2
 {
-    display: flex;
-    align-items: flex-end;
-    font-size: 1.3em;
-    margin-top: 13px;
+    font-weight: bold;
 }
 #popx3
 {
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
     justify-content: center;
     align-items: center;
 }
-
 .carte-pop
 {
     display: flex;
@@ -336,11 +341,14 @@ nav li a
     border-radius: 10px 10px 10px 10px;
     background-color: white;
     flex-wrap: wrap;
-    width: 240px;
+    width: 250px;
     height: 100px;
-    box-shadow: 1px 1px 1px 3px #e7e5e5;
-    max-height: 300px;   
+    box-shadow: 1px 1px 10px 8px #e7e5e5;
     margin-bottom: 30px;
+}
+#popx3 a:hover
+{
+    box-shadow: 1px 1px 10px 10px #DEEBFF
 }
 .text-pop
 {
@@ -349,7 +357,6 @@ nav li a
     justify-content: space-between;
     height: 100%;
     max-width: 80%;
-
 }
 .carte-pop h4,h5
 {
@@ -357,13 +364,23 @@ nav li a
     margin-top: 2px;
     margin-bottom: 2px;
 }
+.titres
+{
+    
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    
+}
 .photo-pop img
 {
     width: 80px;
-    height: 90px;
+    height: 94px;
     border-radius: 10px 0 0 10px;
-    margin: 5px;
+    padding: 3px;
+    object-fit: cover;
 }
+
 h1
 {
     font-size: 1.8em;
@@ -378,14 +395,14 @@ h3{
 }
 h4
 {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 5px;
     font-weight: bolder;
     color: black;
 }
 h5
 {
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 5px;
     font-weight: lighter;
     color: black;
