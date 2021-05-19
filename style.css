@@ -282,6 +282,7 @@ nav li a
 {
     color: #D9D9D9;
     font-size: 0.9em;
+    margin-left: 3px;
 }
 #etoile
 {
@@ -410,8 +411,8 @@ h5
 /* ACTIVITES LARGEUR*/
 #activites
 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #titre-activites h2
 {
@@ -426,26 +427,34 @@ h5
     width: 100%;
     width: 1024px;
     height: 300px;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.acti-small-colonne
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .acti-small
 {
     box-shadow: 0 2px 5px 0 #e7e5e5;
     border-radius: 10px 10px 10px 10px; 
-    display: block;
     
-    height: 140px;
+    height: 145px;
 }
 .acti-small img
 {
-    width: 200px;
+    width: 225px;
     height: 100px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+    object-position: ;
 }
 .acti-small h4
 {
-    margin-left: 15px;
+    margin: 10px;
+    
 }
 .acti-large
 {
@@ -454,14 +463,15 @@ h5
 }
 .acti-large img
 {
-    width: 200px;
-    height: 270px;
+    width: 225px;
+    height: 255px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+    object-position:center;
 }
 .acti-large h4
 {
-    margin-left: 15px;
+    margin: 10px;
 }
 a
 {
