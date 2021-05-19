@@ -208,6 +208,7 @@ nav li a
 {
     display: flex;
     flex-direction: row;   
+    
 }
 
 /* HEBERGEMENT MARSEILLE*/
@@ -276,13 +277,15 @@ nav li a
 .etoile-bleue
 {
     color: #0065FC;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    margin-top: 5px;
 }
 .etoile-grise
 {
     color: #D9D9D9;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 3px;
+    margin-top: 5px;
 }
 #etoile
 {
@@ -291,7 +294,7 @@ nav li a
     height: 20px;
     width: 100px;
     margin-left: 10px;
-    margin-top: 2px;
+   
 }
 #afficher
 {
@@ -311,8 +314,10 @@ nav li a
     background-color:#F2F2F2;
     border-radius: 10px;
     max-height: 500px;
-    max-width: 280px;
-    padding: 30px;
+    max-width: 260px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #titre-populaire
 {
@@ -349,7 +354,9 @@ nav li a
 }
 #popx3 a:hover
 {
-    box-shadow: 1px 1px 10px 10px #DEEBFF
+    box-shadow: 1px 1px 10px 10px #1268e9
+    
+    
 }
 .text-pop
 {
@@ -364,6 +371,7 @@ nav li a
     margin-left: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
+    word-break: break-all;
 }
 .titres
 {
@@ -378,6 +386,10 @@ nav li a
     border-radius: 10px 0 0 10px;
     padding: 3px;
     object-fit: cover;
+}
+.picto-pop
+{
+    font-size: 1.5em;
 }
 
 h1
@@ -430,6 +442,11 @@ h5
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.acti-large:hover, .acti-small:hover
+{
+    box-shadow: 1px 1px 10px 10px #DEEBFF
+}
+
 .acti-small-colonne
 {
     display: flex;
@@ -440,7 +457,6 @@ h5
 {
     box-shadow: 0 2px 5px 0 #e7e5e5;
     border-radius: 10px 10px 10px 10px; 
-    
     height: 145px;
 }
 .acti-small img
@@ -449,7 +465,7 @@ h5
     height: 100px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
-    object-position: ;
+    object-position: top;
 }
 .acti-small h4
 {
@@ -460,6 +476,7 @@ h5
 {
     box-shadow: 0 2px 5px 0 #e7e5e5;
     border-radius: 10px 10px 10px 10px; 
+    height: 100%;
 }
 .acti-large img
 {
