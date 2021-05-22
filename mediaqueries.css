@@ -1,0 +1,63 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 480px */
+@media screen and (max-width: 480px)
+{
+  
+
+    
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#a-propos
+{
+    margin-left: 20px;
+}
+#nos-hebergements
+{
+    margin-left: 20px;
+}
+#assistance
+{
+    margin-left: 20px;
+}
+
+/*BLOC ACTIVITES*/
+
+#bloc-largeur
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+/*BLOC HEBERGEMENT LARGEUR*/
+#hebergement-largeur
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/*BLOC POPULAIRE*/
+#lespluspopulaires
+{
+    max-width: 480px;
+    width: 100%;
+}
+.carte-pop
+{
+    max-width: 440px;
+    width: 100%;
+}
+
+/*BLOC HEBERGEMENT MARSEILLE*/
+#HEBERGEMENT-MARSEILLE
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+}
