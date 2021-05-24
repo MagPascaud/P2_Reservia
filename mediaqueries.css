@@ -30,7 +30,14 @@ footer
 {
     display: flex;
     flex-direction: column;
-    width: auto;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+}
+#bloc-largeur img
+{
+    width: 400px;
+    height: 100px;
 }
 
 /*BLOC HEBERGEMENT LARGEUR*/
@@ -38,26 +45,45 @@ footer
 {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    
 }
 /*BLOC POPULAIRE*/
 #lespluspopulaires
 {
-    max-width: 480px;
+    max-width: 400px;
     width: 100%;
 }
 .carte-pop
 {
-    max-width: 440px;
+    max-width: 400px;
     width: 100%;
 }
 
 /*BLOC HEBERGEMENT MARSEILLE*/
-#HEBERGEMENT-MARSEILLE
+#hebergement-marseille
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    max-height: auto;
+    background-color: white;
+}
+.carte
+{
+    max-width: 400px;
 }
 
+/*BLOC FILTRES*/
+#recherche
+{
+    width: auto;
+}
 
+/*BLOC HEADER*/
+nav ul
+{
+    flex-wrap: wrap;
+}
 
 }
