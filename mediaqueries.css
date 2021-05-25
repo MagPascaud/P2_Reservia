@@ -29,15 +29,22 @@ footer
 #bloc-largeur
 {
     display: flex;
-    flex-direction: column;
-    max-width: 480px;
-    width: 100%;
-    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
 }
 #bloc-largeur img
 {
-    width: 400px;
-    height: 100px;
+    width: 300px;
+    height: 110px;
+    object-position: center;
+}
+.acti-large h4
+{
+    margin: 20px;
 }
 
 /*BLOC HEBERGEMENT LARGEUR*/
@@ -51,7 +58,7 @@ footer
 /*BLOC POPULAIRE*/
 #lespluspopulaires
 {
-    max-width: 400px;
+    max-width: 100%;
     width: 100%;
 }
 .carte-pop
