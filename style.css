@@ -430,8 +430,8 @@ h5
 /* ACTIVITES LARGEUR*/
 #activites
 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
+    
 }
 #titre-activites h2
 {

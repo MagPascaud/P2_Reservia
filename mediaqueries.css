@@ -6,6 +6,15 @@ body
 {
     width: auto;
 }
+h2
+{
+    font-size: 1.5em;
+}
+h4
+{
+    font-size: 1.2em;
+}
+
 footer
 {
     display: flex;
@@ -26,7 +35,11 @@ footer
     margin-left: 20px;
 }
 /*BLOC ACTIVITES*/
-
+#activites
+{
+    padding: 20px;
+    width: 90%;
+}
 #bloc-largeur
 {
     display: flex;
@@ -39,15 +52,30 @@ footer
 }
 #bloc-largeur img
 {
-    width: 300px;
-    height: 110px;
+    width: 100%;
+    height: 135px;
     object-position: center;
 }
-.acti-large h4
+#bloc-largeur a
 {
-    margin: 20px;
+    height: 190px;
+    margin-bottom: 25px;
 }
 
+.acti-large
+{
+    height: 190px;
+   
+}
+.acti-large h4, .acti-small h4
+{
+    margin: 15px;
+}
+.acti-small
+{
+    height: 190px;
+    
+}
 /*BLOC HEBERGEMENT LARGEUR*/
 #hebergement-largeur
 {
