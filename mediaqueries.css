@@ -10,29 +10,34 @@ h2
 {
     font-size: 1.5em;
 }
-h4
+h4, h3
 {
     font-size: 1.2em;
 }
-
+p
+{
+font-size: 1.1em;
+}
 footer
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 30px 30px 30px 20px;   
 }
+
+
 #a-propos
 {
-    margin-left: 20px;
+    margin: 0;
 }
 #nos-hebergements
 {
-    margin-left: 20px;
+    margin: 0;
 }
 #assistance
 {
-    margin-left: 20px;
+    margin: 0;
 }
 /*BLOC ACTIVITES*/
 #activites
@@ -96,11 +101,18 @@ footer
 }
 
 /*BLOC POPULAIRE*/
+#hebergement-largeur
+{
+    width: 100%;
+    
+}
 #lespluspopulaires
 {
-    width: auto;
+    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 10px;
+    margin: 0;
 }
 .carte-pop
 {
