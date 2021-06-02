@@ -193,7 +193,8 @@ footer
 }
 #filtres
 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 .button
 {
@@ -204,6 +205,14 @@ footer
 .button button
 {
     margin-bottom: 7px;
+}
+#bouton i
+{
+    display: block;
+}
+#bouton span
+{
+    display: none;
 }
 #infos
 {

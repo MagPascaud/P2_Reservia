@@ -124,13 +124,23 @@ nav li a
     border: none;
     width: 120px;
 }
+#bouton i
+{
+    display: none;
+}
+
 #filtres
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 20px;
     align-items: center;
+}
+#filtres .button
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #filtres button
 {

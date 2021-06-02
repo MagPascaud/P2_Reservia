@@ -21,19 +21,13 @@
         </div>
         <nav>
             <ul>
-                <li><a id="trait-bleu" href="#">S'inscrire</a></li>
-
+                <li><a id="trait-bleu" href="#">Hébergements</a></li>
+                <div class="trait-bleu"><li><a id="nav-noir" href="#">Activités</a></li></div>
+                <div class="trait-gris"><li><a id="nav-bold" href="#">S'inscrire</a></li></div>
             </ul>
         </nav>
     </header>
-    <div class="menu-bandeau">
-        <nav>
-            <ul>
-                <div class="trait-bleu"><li><a id="nav-bold" href="#">Hébergements</a></li></div>
-                <div class="trait-gris"><li><a id="nav-noir" href="#">Activités</a></li></div>
-            </ul>
-        </nav>
-    </div>
+    
     <div id="titres">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
@@ -44,8 +38,11 @@
             <!-- <img class="localisation" src="images/localisation.jpg" alt="localisation"> -->
             <div id="localisation"><i id="recherche-icone" class="fas fa-map-marker-alt"></i></div>
             <input id="recherche-marseille" placeholder="Marseille, France" type="search" name="géolocalisation" />
-            <input id="bouton" type="button" value="" />
-            <i class="fas fa-search"></i>
+            <button id="bouton" type="button" >
+                <i class="fas fa-search"></i>
+                <span>Rechercher</span>
+            </button>
+            
         </div>
         <div id="filtres">
             <p>Filtres</p>
