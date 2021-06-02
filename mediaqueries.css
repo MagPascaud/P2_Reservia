@@ -48,15 +48,11 @@ footer
 #activites
 {
     padding: 20px;
-    width: 90%;
+    display: flex;
+    flex-direction: column;
 }
 #bloc-largeur
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     width: auto;
     height: auto;
 }
@@ -91,7 +87,6 @@ footer
 {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
     width: auto;
     height: auto;
 }
@@ -105,7 +100,6 @@ footer
 #lespluspopulaires
 {
     max-width: 100%;
-    
     padding: 20px 20px 60px 20px;
     margin: 0;
     border-radius: 0;
@@ -120,6 +114,7 @@ footer
     height: 145px;
     margin-bottom: 10px;
 }
+
 .carte-pop img
 {
     height: 92%;
@@ -153,20 +148,36 @@ footer
 {
     display: flex;
     flex-direction: column;
-    height: auto;
+    max-height: 100%;
     background-color: white;
     width: 90%;
-    padding: 20px 20px 60px 20px;
+    padding: 30px 20px 20px 20px;
 }
 .carte
 {
     max-width: 100%;
     height: 200px;
-    padding: 5px;
+    padding: 4px;
+    margin-bottom: 10px;
 }
 .carte a
 {
     max-width: 100%;
+}
+.carte h4, .carte h5
+{
+    margin-top: 8px;
+}
+
+/* BLOC TITRES */
+#titres
+{
+    padding: 20px;
+    margin: 0;
+}
+#titres h2
+{
+    font-size: 1.3em;
 }
 
 
@@ -175,12 +186,63 @@ footer
 {
     width: auto;
 }
+#recherche-filtre
+{
+    padding: 20px;
+    height: auto;
+}
+#filtres
+{
+    display: inline-block;
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.button button
+{
+    margin-bottom: 7px;
+}
+#infos
+{
+    margin: 10px 0 20px 0;
+}
 
 /*BLOC HEADER*/
 header
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+.menu-bandeau ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.menu-bandeau li
+{
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+.trait-bleu
+{
+    border-bottom: 3px solid #0065FC;
+    width : 50%;
+    padding: 0;
+}
+.trait-gris
+{
+    border-bottom: 3px solid #F2F2F2;
+    width : 50%;
+    padding: 0;
 }
 
 nav
