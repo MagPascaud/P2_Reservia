@@ -87,16 +87,12 @@ footer
 {
     display: flex;
     flex-direction: column-reverse;
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
 /*BLOC POPULAIRE*/
-#hebergement-largeur
-{
-    width: 100%;
-    
-}
+
 #lespluspopulaires
 {
     max-width: 100%;
@@ -158,7 +154,7 @@ footer
     max-width: 100%;
     height: 200px;
     padding: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .carte a
 {
@@ -184,17 +180,50 @@ footer
 /*BLOC FILTRES*/
 #recherche
 {
-    width: auto;
+   
+    height: 60px;
+}
+#localisation
+{
+    height: 58px;
 }
 #recherche-filtre
 {
-    padding: 20px;
+    padding: 20px 10px 30px 20px;
     height: auto;
+    width: 100%;
+    justify-content: center;
 }
+#recherche-marseille::placeholder
+{
+    font-size: 1.4em;
+}
+#recherche-marseille
+{
+    width: 220px;
+}
+
 #filtres
 {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+}
+#filtres button
+{
+    height: 50px;
+    font-size: 1.2em;
+    font-family: 'raleway';
+    
+}
+#filtres i
+{
+    height: 46px;
+    width: 46px;
+}
+#filtres p
+{
+    font-size: 1.4em;
 }
 .button
 {
@@ -204,7 +233,7 @@ footer
 }
 .button button
 {
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 #bouton i
 {
@@ -214,11 +243,26 @@ footer
 {
     display: none;
 }
+#bouton
+{
+    width: 60px;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
 #infos
 {
     margin: 10px 0 20px 0;
 }
-
+#infos p
+{
+    font-size: 1.3em;
+}
+#infos i
+{
+    padding-top: 15px;
+    height: 10px;
+}
 /*BLOC HEADER*/
 header
 {
@@ -226,28 +270,21 @@ header
     flex-direction: row;
     justify-content: space-around;
 }
-.menu-bandeau ul
+
+
+.liseret-top-bleu
 {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    border-top: 0;
+    
 }
-.menu-bandeau li
-{
-    padding: 30px 0 20px 0;
-    margin: 0;
-}
-.trait-bleu
+.liseret-bottom-bleu
 {
     border-bottom: 3px solid #0065FC;
     width : 50%;
     padding: 0;
+    
 }
-.trait-gris
+.liseret-bottom-gris
 {
     border-bottom: 3px solid #F2F2F2;
     width : 50%;
@@ -257,10 +294,5 @@ header
 nav
 {
     width: auto;
-}
-nav ul
-{
-    flex-wrap: wrap;
-}
-
+    flex-wrap: wrap-reverse;
 }
