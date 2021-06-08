@@ -4,7 +4,7 @@
   
 body
 {
-    width: auto;
+    width: 100%;
 }
 h2
 {
@@ -257,6 +257,7 @@ footer
 #infos p
 {
     font-size: 1.3em;
+    width: auto;
 }
 #infos i
 {
@@ -268,7 +269,7 @@ header
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -293,6 +294,26 @@ header
 
 nav
 {
-    width: auto;
-    flex-wrap: wrap-reverse;
+    width: auto;   
+}
+nav li
+{
+    margin: 0;
+}
+ul:nth-child(3)
+{
+    background-color: black;
+    order: 1;
+    flex: 3;
+}
+ul:nth-child(1)
+{
+    order: 2;
+    flex: 1;
+}
+ul:nth-child(2)
+{
+    order: 3;
+    flex: 1;
+}
 }
