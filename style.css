@@ -29,7 +29,6 @@ nav
 nav ul
 {
     display: flex;
-    
     align-items: flex-end;
     vertical-align: middle;
 }
@@ -208,7 +207,7 @@ nav li a
 {
     display: flex;
     flex-direction: row;
-    vertical-align: middle;
+    align-items: center;
     margin-bottom: 20px;
 }
 
