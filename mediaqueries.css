@@ -334,3 +334,49 @@ ul:nth-child(3)
 
     
 }
+
+/* Sur les tablette, quand la largeur de la fenêtre fait entre 480px et 1024px */
+@media all and (min-width: 480px) and (max-width: 1024px)
+{
+/* footer */
+footer
+{
+    width: 100%;
+    
+    justify-content: space-around;
+}
+#a-propos
+{
+    margin: 0;
+}
+
+#nos-hebergements
+{
+    margin: 0;
+}
+#assistance
+{
+    margin: 0;
+}
+
+/* BLOC ACTIVITES */
+#bloc-largeur
+{
+    width: auto;
+    justify-content: space-around;
+}
+.bloc-acti
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+}
+
+
+
+
+
+
+
+}
