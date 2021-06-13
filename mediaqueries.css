@@ -364,6 +364,7 @@ footer
 {
     width: auto;
     justify-content: space-around;
+    height: auto;
 }
 .bloc-acti
 {
@@ -372,8 +373,15 @@ footer
     justify-content: space-around;
     height: auto;
 }
-
-
+.acti-large
+{
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+.acti-small
+{
+    margin-bottom: 20px;
+}
 
 
 
