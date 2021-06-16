@@ -377,28 +377,52 @@ footer
 }
 
 /* BLOC ACTIVITES */
+#activites
+{
+    padding: 50px;
+}
+
 #bloc-largeur
 {
-    width: auto;
-    justify-content: space-around;
-    height: auto;
-}
-.bloc-acti
-{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
     height: auto;
 }
+#bloc-largeur img
+{
+    width: 100%;
+    height: 150px;
+    object-position: center;
+}
+
+#bloc-largeur a
+{
+    height: 190px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 .acti-large
 {
-    margin-right: 80px;
-    margin-bottom: 20px;
+    height: 210px;
+    max-height: 210px;
+    width: 90%;
+    margin: auto;
+}
+.acti-large h4, .acti-small h4
+{
+    padding: 15px;
+    margin: 0;
 }
 .acti-small
 {
-    margin-bottom: 20px;
+    height: 210px;
+    max-height: 210px;
+    width: 90%;
+    margin: auto;
 }
+
 /*BLOC HEBERGEMENT LARGEUR*/
 #hebergement-largeur
 {
@@ -412,6 +436,7 @@ footer
 #lespluspopulaires
 {
     max-width: 100%;
+    width: 90%;
     padding: 30px 50px 80px 50px;
     margin: 0;
     border-radius: 0;
@@ -455,7 +480,7 @@ footer
 #popx3 a
 {
     margin-bottom: 20px;
-    max-width: 100%;
+    width: 100%;
 }
 
 /*BLOC HEBERGEMENT MARSEILLE*/
@@ -466,6 +491,65 @@ footer
     max-height: 100%;
     background-color: white;
     max-width: 100%;
-    padding: 30px 20px 20px 20px;
+    padding: 50px 50px 20px 50px;
+}
+.carte
+{
+    max-width: 45%;
+    height: 230px;
+    max-height: 230px;
+    padding: 4px;
+    margin-bottom: 40px;
+}
+
+.photo img
+{
+    height: 150px;
+}
+header
+{
+    padding: 0 50px 0 50px;
+}
+#titres
+{
+    padding: 0 50px 20px 50px;
+}
+
+#recherche
+{
+    padding-bottom: 20px;
+}
+
+#recherche-filtre
+{
+    padding: 50px 50px 20px 50px;
+    height: auto;
+}
+#filtres
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#filtres button
+{
+    height: 50px;
+    font-size: 1.2em;
+    font-family: 'raleway';
+    
+}
+#filtres i
+{
+    height: 46px;
+    width: 46px;
+    font-size: 1.3em;
+}
+#filtres p
+{
+    font-size: 1.4em;
+}
+.button button
+{
+    margin-bottom: 20px;
 }
 }
