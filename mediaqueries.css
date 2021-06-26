@@ -400,7 +400,7 @@ footer
 #bloc-largeur a
 {
     height: 190px;
-    width: 75%;
+    width: 90%;
     margin-bottom: 50px;
 }
 
@@ -408,7 +408,7 @@ footer
 {
     height: 210px;
     max-height: 210px;
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 .acti-large h4, .acti-small h4
@@ -425,16 +425,16 @@ footer
 }
 .acti-large a
 {
-    width: 75%;
+    width: 80%;
 }
 .acti-small a
 {
-    width: 75%;
+    width: 80%;
 }
 .acti-small-colonne
 {
     align-items: center;
-    width: 75%;
+    width: 80%;
 }
 
 /*BLOC HEBERGEMENT LARGEUR*/
@@ -450,7 +450,7 @@ footer
 #lespluspopulaires
 {
     max-width: 100%;
-    width: 90%;
+    
     padding: 30px 50px 80px 50px;
     margin: 0;
     border-radius: 0;
