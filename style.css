@@ -20,15 +20,22 @@ header
     display: flex;
     justify-content: space-between;
 }
+nav
+{
+    display: flex;
+    flex-direction: row;
+}
+
 nav ul
 {
     display: flex;
-    align-items: flex-end;
     vertical-align: middle;
+    width: fit-content;
+    margin: 0;
 }
 nav li
 {
-    margin-left: 80px;
+    margin-left: 30px;
     text-decoration: none;
     list-style-type: none;
     font-size: 1.2em;
@@ -48,6 +55,11 @@ nav li a
 {
     font-weight: bold;
 }
+.liseret-top-bleu
+{
+    border-top: solid 2px #0065FC;
+}
+
 #titres
 {
     margin-top: 40px;
@@ -124,13 +136,23 @@ nav li a
     border: none;
     width: 120px;
 }
+#bouton i
+{
+    display: none;
+}
+
 #filtres
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 20px;
     align-items: center;
+}
+#filtres .button
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #filtres button
 {
@@ -148,6 +170,7 @@ nav li a
     font-size: 1.2em;   
     padding-right: 20px; 
     padding-left: 0;
+    font-family: 'raleway';
 }
 
 #filtres button:hover
@@ -185,7 +208,7 @@ nav li a
 {
     display: flex;
     flex-direction: row;
-    vertical-align: middle;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -286,7 +309,7 @@ nav li a
     margin-left: 3px;
     margin-top: 5px;
 }
-#etoile
+.etoile
 {
     display: flex;
     flex-direction: row;
@@ -385,6 +408,7 @@ nav li a
 } */
 .photo-pop {
     flex: 1;
+    height: inherit;
 }
 .photo-pop img
 {
@@ -432,6 +456,7 @@ h5
 {
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 #titre-activites h2
 {
