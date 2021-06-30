@@ -274,7 +274,8 @@ nav li a {
     max-height: 170px;
     margin-bottom: 30px;
     max-width: 190px;
-    padding: 2px
+    padding: 2px;
+    flex-basis: 33%;
 }
 
 .carte h4,
@@ -359,6 +360,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .carte-pop {

@@ -121,6 +121,7 @@
         height: 200px;
         padding: 4px;
         margin-bottom: 40px;
+        flex-basis: 100%;
     }
     .carte a {
         max-width: 100%;
@@ -394,6 +395,7 @@
         max-height: 230px;
         padding: 4px;
         margin-bottom: 40px;
+        flex-basis: 50%;
     }
     .photo img {
         height: 150px;
